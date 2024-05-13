@@ -458,41 +458,71 @@ video {
 [hidden] {
   display: none;
 }
-    :root {
-      --background: 0 0% 100%;
-      --foreground: 0 0% 3.9%;
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 3.9%;
 
-      --card: 0 0% 100%;
-      --card-foreground: 0 0% 3.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 3.9%;
 
-      --popover: 0 0% 100%;
-      --popover-foreground: 0 0% 3.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 3.9%;
 
-      --primary: 0 0% 9%;
-      --primary-foreground: 0 0% 98%;
+    --primary: 0 0% 9%;
+    --primary-foreground: 0 0% 98%;
 
-      --secondary: 0 0% 96.1%;
-      --secondary-foreground: 0 0% 9%;
+    --secondary: 0 0% 96.1%;
+    --secondary-foreground: 0 0% 9%;
 
-      --muted: 0 0% 96.1%;
-      --muted-foreground: 0 0% 45.1%;
+    --muted: 0 0% 96.1%;
+    --muted-foreground: 0 0% 45.1%;
 
-      --accent: 0 0% 96.1%;
-      --accent-foreground: 0 0% 9%;
+    --accent: 0 0% 96.1%;
+    --accent-foreground: 0 0% 9%;
 
-      --destructive: 0 84.2% 60.2%;
-      --destructive-foreground: 0 0% 98%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
 
-      --border: 0 0% 89.8%;
-      --input: 0 0% 89.8%;
-      --ring: 0 0% 3.9%;
+    --border: 0 0% 89.8%;
+    --input: 0 0% 89.8%;
+    --ring: 0 0% 3.9%;
 
-      --radius: 0.5rem;
-    }
-    * {
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 0 0% 3.9%;
+    --foreground: 0 0% 98%;
+
+    --card: 0 0% 3.9%;
+    --card-foreground: 0 0% 98%;
+
+    --popover: 0 0% 3.9%;
+    --popover-foreground: 0 0% 98%;
+
+    --primary: 0 0% 98%;
+    --primary-foreground: 0 0% 9%;
+
+    --secondary: 0 0% 14.9%;
+    --secondary-foreground: 0 0% 98%;
+
+    --muted: 0 0% 14.9%;
+    --muted-foreground: 0 0% 63.9%;
+
+    --accent: 0 0% 14.9%;
+    --accent-foreground: 0 0% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 0 0% 14.9%;
+    --input: 0 0% 14.9%;
+    --ring: 0 0% 83.1%;
+  }
+  * {
   border-color: hsl(var(--border));
 }
-    body {
+  body {
   background-color: hsl(var(--background));
   color: hsl(var(--foreground));
 }
@@ -604,108 +634,108 @@ video {
   --tw-contain-paint:  ;
   --tw-contain-style:  ;
 }
-  .inline-flex {
+.inline-flex {
   display: inline-flex;
 }
-  .h-10 {
+.h-10 {
   height: 2.5rem;
 }
-  .h-11 {
+.h-11 {
   height: 2.75rem;
 }
-  .h-9 {
+.h-9 {
   height: 2.25rem;
 }
-  .w-10 {
+.w-10 {
   width: 2.5rem;
 }
-  .items-center {
+.items-center {
   align-items: center;
 }
-  .justify-center {
+.justify-center {
   justify-content: center;
 }
-  .whitespace-nowrap {
+.whitespace-nowrap {
   white-space: nowrap;
 }
-  .rounded-md {
+.rounded-md {
   border-radius: calc(var(--radius) - 2px);
 }
-  .border {
+.border {
   border-width: 1px;
 }
-  .border-input {
+.border-input {
   border-color: hsl(var(--input));
 }
-  .bg-background {
+.bg-background {
   background-color: hsl(var(--background));
 }
-  .bg-destructive {
+.bg-destructive {
   background-color: hsl(var(--destructive));
 }
-  .bg-primary {
+.bg-primary {
   background-color: hsl(var(--primary));
 }
-  .bg-secondary {
+.bg-secondary {
   background-color: hsl(var(--secondary));
 }
-  .px-3 {
+.px-3 {
   padding-left: 0.75rem;
   padding-right: 0.75rem;
 }
-  .px-4 {
+.px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
 }
-  .px-8 {
+.px-8 {
   padding-left: 2rem;
   padding-right: 2rem;
 }
-  .py-2 {
+.py-2 {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }
-  .text-sm {
+.text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
 }
-  .font-medium {
+.font-medium {
   font-weight: 500;
 }
-  .text-destructive-foreground {
+.text-destructive-foreground {
   color: hsl(var(--destructive-foreground));
 }
-  .text-primary {
+.text-primary {
   color: hsl(var(--primary));
 }
-  .text-primary-foreground {
+.text-primary-foreground {
   color: hsl(var(--primary-foreground));
 }
-  .text-secondary-foreground {
+.text-secondary-foreground {
   color: hsl(var(--secondary-foreground));
 }
-  .underline-offset-4 {
+.underline-offset-4 {
   text-underline-offset: 4px;
 }
-  .outline {
+.outline {
   outline-style: solid;
 }
-  .ring-offset-background {
+.ring-offset-background {
   --tw-ring-offset-color: hsl(var(--background));
 }
-  .transition-colors {
+.transition-colors {
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
 }
-  @keyframes enter {
+@keyframes enter {
 
   from {
     opacity: var(--tw-enter-opacity, 1);
     transform: translate3d(var(--tw-enter-translate-x, 0), var(--tw-enter-translate-y, 0), 0) scale3d(var(--tw-enter-scale, 1), var(--tw-enter-scale, 1), var(--tw-enter-scale, 1)) rotate(var(--tw-enter-rotate, 0));
   }
 }
-  @keyframes exit {
+@keyframes exit {
 
   to {
     opacity: var(--tw-exit-opacity, 1);
@@ -713,53 +743,60 @@ video {
   }
 }
 
-  .hover\:bg-accent:hover {
+html,
+body,
+:root {
+  height: 100%;
+}
+
+.hover\:bg-accent:hover {
   background-color: hsl(var(--accent));
 }
 
-  .hover\:bg-destructive\/90:hover {
+.hover\:bg-destructive\/90:hover {
   background-color: hsl(var(--destructive) / 0.9);
 }
 
-  .hover\:bg-primary\/90:hover {
+.hover\:bg-primary\/90:hover {
   background-color: hsl(var(--primary) / 0.9);
 }
 
-  .hover\:bg-secondary\/80:hover {
+.hover\:bg-secondary\/80:hover {
   background-color: hsl(var(--secondary) / 0.8);
 }
 
-  .hover\:text-accent-foreground:hover {
+.hover\:text-accent-foreground:hover {
   color: hsl(var(--accent-foreground));
 }
 
-  .hover\:underline:hover {
+.hover\:underline:hover {
   text-decoration-line: underline;
 }
 
-  .focus-visible\:outline-none:focus-visible {
+.focus-visible\:outline-none:focus-visible {
   outline: 2px solid transparent;
   outline-offset: 2px;
 }
 
-  .focus-visible\:ring-2:focus-visible {
+.focus-visible\:ring-2:focus-visible {
   --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
   --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);
   box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
 }
 
-  .focus-visible\:ring-ring:focus-visible {
+.focus-visible\:ring-ring:focus-visible {
   --tw-ring-color: hsl(var(--ring));
 }
 
-  .focus-visible\:ring-offset-2:focus-visible {
+.focus-visible\:ring-offset-2:focus-visible {
   --tw-ring-offset-width: 2px;
 }
 
-  .disabled\:pointer-events-none:disabled {
+.disabled\:pointer-events-none:disabled {
   pointer-events: none;
 }
 
-  .disabled\:opacity-50:disabled {
+.disabled\:opacity-50:disabled {
   opacity: 0.5;
 }
+
