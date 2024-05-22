@@ -770,8 +770,14 @@ video {
 .h-px {
   height: 1px;
 }
+.h-\[18px\] {
+  height: 18px;
+}
 .min-h-full {
   min-height: 100%;
+}
+.min-h-\[27px\] {
+  min-height: 27px;
 }
 .w-0 {
   width: 0px;
@@ -915,6 +921,11 @@ video {
 .overflow-y-auto {
   overflow-y: auto;
 }
+.truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
 .whitespace-nowrap {
   white-space: nowrap;
 }
@@ -1021,6 +1032,9 @@ video {
 }
 .pt-40 {
   padding-top: 10rem;
+}
+.pr-3 {
+  padding-right: 0.75rem;
 }
 .text-center {
   text-align: center;
@@ -1188,6 +1202,10 @@ body,
 
 .hover\:bg-secondary\/80:hover {
   background-color: hsl(var(--secondary) / 0.8);
+}
+
+.hover\:bg-primary:hover {
+  background-color: hsl(var(--primary));
 }
 
 .hover\:text-accent-foreground:hover {
